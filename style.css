@@ -1,0 +1,60 @@
+/* first container */
+body {
+    /* background-color: #1F2937; */
+    margin: 0;
+}
+.container {
+    background:#1F2937;
+
+}
+.header {
+    display: flex;
+    padding: 16px;
+    margin-left:10%;
+    margin-right:10%;
+}
+.headerlogo {
+    display:flex;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+ul {
+    display: flex;
+    margin-left: auto;
+    gap: 24px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #F9FAF8; 
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.heromain {
+    display: flex;
+    padding-left: 16px;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+.herosecondary {
+    display: flex;
+    padding-left: 16px;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+button {
+    display: flex;
+    width: fit-content;
+    margin-left: 16px;
+}
+.mainimg {
+    display: flex;
+    align-items: flex-end;
+}
