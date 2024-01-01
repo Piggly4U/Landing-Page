@@ -79,6 +79,7 @@ a {
     margin-right: 20%;
     text-align: center;
     margin-bottom: 48px;
+    color:#1F2937;
 }
 
 /*third container*/
@@ -103,4 +104,46 @@ a {
     justify-content: end;
     margin-right: 20%;
     margin-bottom: 42px;
+}
+
+/* fourth container*/
+
+.containerfour {
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+
+}
+.bluebox {
+    display: flex;
+    background: #3882F6;
+    color: #E5E7EB;
+    padding: 28px;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+.callto {
+    font-size: 24px;
+    font-weight: 900;
+}
+.left {
+    display:flex;
+    flex-direction: column;
+    margin-left: 64px;
+    margin-right:128px;
+}
+.signuptwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background: #1F2937;
+    color: #F9FAF8;
+    padding: 32px;
 }
